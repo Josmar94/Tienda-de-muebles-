@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecommerce - Blog</title>
+    <title>Ecommerce - Contacto</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
                 Muebles</spam></h1>
     </header>
 
-    <div class="border-top py-4 border-bottom">
+    <div class="border-top py-4">
         <div class="navbar navbar-expand-lg container navbar-light">
             <a class="navbar-brand nombre-sitio d-lg-none d-md-block fs-2 fw-bold text-uppercase" href="index.html">
                 Tienda Muebles
@@ -36,84 +36,86 @@
         <a class="text-dark text-decoration-none" href="tienda.html">Tienda</a>
         <a class="text-dark text-decoration-none" href="blog.html">Blog</a>
         <a class="text-dark text-decoration-none" href="galeria.html">Galeria</a>
-        <a class="text-dark text-decoration-none" href=".contacto.html">Contacto</a>
+        <a class="text-dark text-decoration-none" href="contacto.html">Contacto</a>
     </nav>
 </div>   
 </div>
 </div>
 
-<section class="container-lg py-5">
-    <h2 class="text-center my-5 fs-1">Blog</h2>
-    <div class="row mt-5 gx-5">
-        <main class="col-md-8 order-1 order-md-0">
-            <article class="mb-2 pb-5">
-                <h2 class="my-5">Guía de Colores</h2>
-                <img class="img-fluid" src="img/nosotros.jpg" alt="imagen blog">
-                <div class="d-flex flex-column flex-md-row justify-content-md-between mt-4">
-                    <p class="fw-bold">Fecha: 
-                        <span class="text-primary">22/11/2021</span>
-                    </p>
-                    <p class="fw-bold ">Escrito: 
-                        <span class="text-primary">TiendasMuebles</span>
-                    </p>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta consequatur soluta provident
-                     enim sunt facere reiciendis omnis velit numquam veritatis id modi, maxime ipsum est 
-                     ducimus ab, quae sit qui?
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta consequatur soluta provident
-                    enim sunt facere reiciendis omnis velit numquam veritatis id modi, maxime ipsum est 
-                    ducimus ab, quae sit qui?
-               </p>
-               <a class="btn btn-success px-5 py-3 fs-3 text-uppercase fw-bold d-block d-md-inline-block" href="entrada.html">
-                   Continuar Leyendo</a>
-            </article>
-            <article class="mb-2 border-top pb-5">
-                <h2 class="my-5">Guía de Colores</h2>
-                <img class="img-fluid" src="img/nosotros.jpg" alt="imagen blog">
-                <div class="d-flex flex-column flex-md-row justify-content-md-between mt-4">
-                    <p class="fw-bold">Fecha: 
-                        <span class="text-primary">22/11/2021</span>
-                    </p>
-                    <p class="fw-bold ">Escrito: 
-                        <span class="text-primary">TiendasMuebles</span>
-                    </p>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta consequatur soluta provident
-                     enim sunt facere reiciendis omnis velit numquam veritatis id modi, maxime ipsum est 
-                     ducimus ab, quae sit qui?
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta consequatur soluta provident
-                    enim sunt facere reiciendis omnis velit numquam veritatis id modi, maxime ipsum est 
-                    ducimus ab, quae sit qui?
-               </p>
-               <a class="btn btn-success px-5 py-3 fs-3 text-uppercase fw-bold d-block d-md-inline-block" href="entrada.html">
-                   Continuar Leyendo</a>
-            </article>
-    </main>
-        <aside class="col-md-4">
-            <h3 class="my-5">Otras entradas de blog</h3>
-            <ul class="mt-5">
-                <li>
-                    <a class="text-dark text-decoration-none" href="#">Guía de colores</a>
-                </li>
-                <li>
-                    <a class="text-dark text-decoration-none" href="#">Nuevos Modelos</a>
-                </li>
-                <li>
-                    <a class="text-dark text-decoration-none" href="#">Guía para Diseños de interiores</a>
-                </li>
-                <li>
-                    <a class="text-dark text-decoration-none" href="#">Guía para Diseños de exteriores</a>
-                </li>
-                
-            </ul>
-        </aside>
 
+
+<main class="container-lg py-5">
+    <h2 class="text-center my-5 fs-1">Contacto</h2>
+    <div class="row justify-content-md-center">
+        <form action="" class="col-md-8 needs-validation" novalidate>
+            <fieldset>
+                <legend class="bg-primary text-center text-white fs-2 fw-bold">Tus Datos</legend>
+                <div class="mb-3">
+                    <label class="form-label" for="nombre">Nombre :</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Tu Nombre" required>
+                    <span class="invalid-feedback">Hubo un error...</span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="asunto">Asunto :</label>
+                    <input type="text" class="form-control" id="asunto" placeholder="Tu Asunto">
+                    <span class="valid-feedback">Muy Bien !!</span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="email">Email :</label>
+                    <input type="email" class="form-control" id="email" placeholder="Tu Email">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="telefono">Telefono :</label>
+                    <input type="tel" class="form-control" id="telefono" placeholder="Tu Teléfono">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="telefono">Mensaje :</label>
+                    <textarea class="form-control" rows="10"></textarea>
+                    
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend class="bg-primary text-center text-white fs-2 fw-bold">País</legend>
+                <div class="mb-3">
+                    <label class="form-label" for="pais">País:</label>
+                    <select class="form-control" id="pais">
+                        <option value="">--Seleccione--</option>
+                        <option value="MX">México</option>
+                        <option value="PR">Perú</option>
+                        <option value="CO">Colombia</option>
+                        <option value="AR">Argentia</option>
+                        <option value="ES">España</option>
+                        <option value="CL">Chile</option>
+                        <option value="VN">Venezuela</option>
+
+
+                    </select>
+                    
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend class="bg-primary text-center text-white fs-2 fw-bold">Información Extra</legend>
+                <div class="mb-3">
+                    <label class="form-label" for="cliente">Cliente:</label>
+                    <input name="tipo" type="radio" class="form-check-input" id="cliente">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="proveedor">Proveedor:</label>
+                    <input name="tipo" type="radio" class="form-check-input" id="proveedor">
+                </div>
+            </fieldset>
+
+            <div class="d-grid d-md-flex">
+            <input class="btn btn-secondary fs-2 px-5 mt-5" type="submit" value="Enviar Formulario">
+        </div>
+        </form>
     </div>
-
     
-</section>
+</main>
 
 
 
@@ -156,5 +158,6 @@
 </footer>
 
 <script src="js/bootstrap.bundle.min.js"></script> 
+<script src="js/app.js"></script>
 </body>
 </html>
